@@ -1,0 +1,38 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  direction: rtl;
+  background: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #009688;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+section {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.rest {
+  background-color: #ffcdd2;
+  color: #b71c1c;
+}
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

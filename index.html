@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي الرياضي</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>موقعي الرياضي الشخصي</h1>
+    <p>جدول تمارين + تتبع السرعة</p>
+  </header>
+
+  <section class="table-section">
+    <h2>جدول التمارين الأسبوعي</h2>
+    <table>
+      <thead>
+        <tr><th>اليوم</th><th>النشاط</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>الأحد</td><td>جري 5 كم</td></tr>
+        <tr><td>الاثنين</td><td class="rest">راحة</td></tr>
+        <tr><td>الثلاثاء</td><td>جري سريع</td></tr>
+        <tr><td>الأربعاء</td><td>تمارين مقاومة</td></tr>
+        <tr><td>الخميس</td><td>جري مريح</td></tr>
+        <tr><td>الجمعة</td><td class="rest">راحة</td></tr>
+        <tr><td>السبت</td><td>مشي</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="chart-section">
+    <h2>متوسط سرعة الجري</h2>
+    <canvas id="speedChart" width="400" height="200"></canvas>
+  </section>
+
+  <footer>
+    <p>© 2025 موقع رياضي شخصي</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
